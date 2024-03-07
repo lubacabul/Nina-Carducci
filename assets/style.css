@@ -53,6 +53,7 @@ body {
 
 .carousel-item img{
 	width: 100%;
+	height: auto;
 	max-height: 670px;
 }
 
@@ -98,7 +99,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh; 
 }
 .title{
 	text-align: center;
@@ -108,7 +109,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: white;
+	color: black;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
