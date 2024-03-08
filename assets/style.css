@@ -109,7 +109,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: white;
+	color: black;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -364,4 +364,3 @@ input[type="submit"] {
 		height: 100%;
 	}
 }
-
