@@ -154,6 +154,7 @@ body {
 .quote__text {
 	font-family: Spectral;
 	font-style: italic;
+	font-size: 2.5rem;
 	font-weight: 300;
 
 }
