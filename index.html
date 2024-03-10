@@ -14,15 +14,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
 	
-		
-	<script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script defer src="./assets/maugallery.js"></script>
-	<script defer src="./assets/scripts.js"></script>
 
 	<!--   Facebook   -->
 	<meta property="og:title" content="Nina Carducci - Photographe professionnelle à Bordeaux">
@@ -39,6 +31,10 @@
 	<meta name="twitter:description" content="Photographe professionnelle basée à Bordeaux, Nina Carducci saisi vos moments de vie pour les rendre immortels.">
 	<meta name="twitter:image" content="https://lubacabul.github.io/Nina-Carducci/assets/images/nina.webp">
 
+	<script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script defer src="./assets/maugallery.js"></script>
+	<script defer src="./assets/scripts.js"></script>
 	<!--   Schema.org   -->
 	<script type="application/ld+json">
 		{
@@ -68,8 +64,7 @@
 	</script>
 
 </head>
-
-
+	
 <body>
 
 <header class="header">
@@ -80,7 +75,7 @@
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" aria-label="Découvrez ma page instagram"><i class="fa-brands fa-xl fa-light fa-instagram"></i></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" aria-label="Découvrez ma page instagram"><img src="./assets/images/instagram.png" class="" alt="logo instagram"></a></li>
 		</ul>
 	</nav>
 </header>
@@ -101,7 +96,7 @@
 					srcset="./assets/images/slider/ryoji-iwata.webp 1920w,
 					./assets/images/slider/ryoji-iwata-320.webp 320w,
 					./assets/images/slider/ryoji-iwata-650.webp 650w"
-					sizes="1000vw"
+					sizes="100vw"
 					class="d-block h100" alt="Photo d'un homme en costume de dos">
 			</div>
 			<div class="carousel-item">
@@ -109,7 +104,7 @@
 					srcset="./assets/images/slider/nicholas-green.webp 1920w,
 					./assets/images/slider/nicholas-green-320.webp 320w,
 					./assets/images/slider/nicholas-green-650.webp 650w"
-					sizes="1000vw"
+					sizes="100vw"
 					class="d-block h-100" alt="Photo de spectateurs d'un concert" loading="lazy">
 			</div>
 			<div class="carousel-item">
@@ -117,7 +112,7 @@
 					srcset="./assets/images/slider/edward-cisneros.webp 1920w,
 					./assets/images/slider/edward-cisneros-320.webp 320w,
 					./assets/images/slider/edward-cisneros-650.webp 650w"
-					sizes="1000vw"
+					sizes="100vw"
 					class="d-block h-100" alt="Photo des mariés durant leur première danse" loading="lazy">
 			</div>
 		</div>
@@ -134,8 +129,8 @@
 
 
 <section id="about">
-	<div class="picture left w-100 h-100">
-		<img src="./assets/images/nina.webp" srcset="./assets/images/nina.webp 1920w, ./assets/images/nina-320.webp 320w, ./assets/images/nina-650.webp 650w" sizes="400px" alt="Portrait de Nina Carducci">
+	<div class="picture left h-100">
+		<img loading="eager" src="./assets/images/nina.webp" srcset="./assets/images/nina.webp 1920w, ./assets/images/nina-320.webp 320w, ./assets/images/nina-650.webp 650w" sizes="400px" alt="Portrait de Nina Carducci">
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -207,7 +202,7 @@
 	<div class="quote">
 		<figure>
 			<blockquote>
-				<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+				<span class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</span>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
@@ -256,7 +251,7 @@
 <div class="quote">
 	<figure>
 		<blockquote>
-			<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+			<span class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</span>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
